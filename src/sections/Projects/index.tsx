@@ -39,6 +39,17 @@ const projects = [
     technologies: ["React", "Tailwind CSS"],
     image: "https://via.placeholder.com/300",
   },
+  {
+    id: crypto.randomUUID(),
+    name: "Project 4",
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    links: {
+      github: "https://github.com",
+      demo: "https://demo.com",
+    },
+    technologies: ["React", "Tailwind CSS"],
+    image: "https://via.placeholder.com/300",
+  },
 ];
 
 export const Projects = () => {
