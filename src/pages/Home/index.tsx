@@ -1,9 +1,13 @@
-import { Navbar } from "@/components/Navbar";
+// import { Navbar } from "@/components/Navbar";
+import { Header } from "@/sections/Home/Header";
 
 export const Home = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Header />
+
+      <div className="h-[2000px]"></div>
     </div>
   );
 };
