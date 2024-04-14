@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { NavbarLink } from "./Link";
+import { Zap } from "lucide-react";
 
 export const Navbar = () => {
   const navigate = useNavigate();
@@ -13,12 +14,12 @@ export const Navbar = () => {
       "
       >
         <h1
-          className="text-2xl font-medium cursor-pointer"
+          className="text-2xl font-medium cursor-pointer flex items-center gap-3"
           onClick={() => {
             navigate("/");
           }}
         >
-          Matheus Palmieri
+          <Zap /> Matheus Palmieri
         </h1>
 
         <ul className="flex gap-3">
