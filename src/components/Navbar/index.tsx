@@ -5,10 +5,10 @@ export const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="p-6">
+    <div className="w-full fixed z-50 p-6">
       <nav
         className="
-        h-16 p-3 bg-[rgba(0,0,0,0.1)] backdrop-filter backdrop-blur-xl rounded-lg
+        h-16 p-3 bg-[rgba(100,100,100,0.1)] backdrop-filter backdrop-blur-xl rounded-lg
         flex items-center justify-between
       "
       >
