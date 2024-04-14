@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/Navbar";
-import { Github } from "@/sections/GitHub";
+import { Github } from "@/sections/Home/GitHub";
 import { Header } from "@/sections/Home/Header";
-import { Projects } from "@/sections/Projects";
+import { Projects } from "@/sections/Home/Projects";
 
 export const Home = () => {
   return (
@@ -9,7 +9,7 @@ export const Home = () => {
       <Navbar />
 
       <Header />
-      {/* <Projects /> */}
+      <Projects />
       <Github />
     </>
   );
