@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 import { Github } from "@/sections/Home/GitHub";
 import { Header } from "@/sections/Home/Header";
@@ -11,6 +12,8 @@ export const Home = () => {
       <Header />
       <Projects />
       <Github />
+
+      <Footer />
     </>
   );
 };
