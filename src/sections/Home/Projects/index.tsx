@@ -9,7 +9,7 @@ export const Projects = () => {
   const projects = getProjects();
 
   return (
-    <section>
+    <section id="projects">
       {projects.map((project: Project, idx: number) => {
         const isPair = idx % 2 === 0;
 
