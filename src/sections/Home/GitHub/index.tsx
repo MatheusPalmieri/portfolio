@@ -15,7 +15,6 @@ export const Github = () => {
       try {
         setIsLoading(true);
         const response = await getRepositories();
-        console.log(response);
         setRepositories(response);
       } catch (error) {
         console.error("Error fetching data from GitHub", error);
