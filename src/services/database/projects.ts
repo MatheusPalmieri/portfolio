@@ -15,7 +15,7 @@ export const ProjectsDB: Project[] = [
       TechnologiesEnum.TYPESCRIPT,
       TechnologiesEnum.CSS,
     ],
-    image: "https://via.placeholder.com/400X500/333/ccc?text=Blog",
+    image: "blog.png",
   },
   {
     id: "b7a09c74-35e9-4e02-b61f-fb09f6e13de9",
@@ -31,7 +31,7 @@ export const ProjectsDB: Project[] = [
       TechnologiesEnum.TYPESCRIPT,
       TechnologiesEnum.TAILWIND,
     ],
-    image: "https://via.placeholder.com/400X500/555/ccc?text=NLW%20Unite",
+    image: "nlw-unite.png",
   },
   {
     id: "4bfa82e4-25a4-40da-ba67-8a6841fee2ed",
@@ -47,7 +47,7 @@ export const ProjectsDB: Project[] = [
       TechnologiesEnum.CSS,
       TechnologiesEnum.BOOTSTRAP,
     ],
-    image: "https://via.placeholder.com/400X500/333/ccc?text=iMovi",
+    image: "imovi.png",
   },
   {
     id: "71f4a712-301b-42f5-b99d-f72825515ea8",
@@ -62,7 +62,6 @@ export const ProjectsDB: Project[] = [
       TechnologiesEnum.JAVASCRIPT,
       TechnologiesEnum.CSS,
     ],
-    image:
-      "https://via.placeholder.com/400X500/999/222?text=Wheather%20Forecast",
+    image: "weather-forecast.png",
   },
 ];

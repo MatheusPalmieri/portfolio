@@ -25,7 +25,7 @@ export const Projects = () => {
                 }`}
               >
                 <img
-                  src={project.image}
+                  src={`src/assets/projects/${project.image}`}
                   alt="Project image"
                   className="w-72 h-96 object-cover rounded-lg"
                 />
