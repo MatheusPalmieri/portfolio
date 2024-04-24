@@ -5,7 +5,7 @@ import { ChevronsDown, Github, Linkedin, Mail, Youtube } from "lucide-react";
 import { ComponentProps } from "react";
 
 export const Header = () => (
-  <header className="h-[100dvh] bg-zinc-900">
+  <header id="home" className="h-[100dvh] bg-zinc-900">
     <Stack className="h-full gap-6 justify-center items-center relative">
       <div className="size-52 rounded-full bg-gradient-to-b from-slate-500 to-slate-300 overflow-hidden">
         <img src={Avatar} alt="avatar" className="object-cover" />

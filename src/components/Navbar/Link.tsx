@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 interface Props {
   children: string;
@@ -8,12 +8,14 @@ interface Props {
 
 export const NavbarLink = ({ children, route, disabled = false }: Props) => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const isActive = location.pathname === route;
 
   return (
     <li
-      className={`text-zinc-200 text-lg font-medium hover:text-white duration-300 ${
-        disabled ? "opacity-30" : "cursor-pointer"
-      }`}
+      className={`text-lg font-medium hover:text-white duration-300 
+      ${isActive ? "text-white" : "text-zinc-400"}
+      ${disabled ? "opacity-10" : "cursor-pointer"}`}
       onClick={() => !disabled && navigate(route)}
       title={disabled ? "Coming soon" : ""}
     >
