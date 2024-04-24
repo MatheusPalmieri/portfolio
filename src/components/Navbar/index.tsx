@@ -18,15 +18,9 @@ export const Navbar = () => (
 
       <ul className="flex gap-3">
         <NavbarLink route="/">Home</NavbarLink>
-        <NavbarLink route="/about" disabled>
-          About me
-        </NavbarLink>
-        <NavbarLink route="/skills" disabled>
-          Skills
-        </NavbarLink>
-        <NavbarLink route="/projects" disabled>
-          Projects
-        </NavbarLink>
+        <NavbarLink route="/about">About me</NavbarLink>
+        <NavbarLink route="/skills">Skills</NavbarLink>
+        <NavbarLink route="/projects">Projects</NavbarLink>
       </ul>
     </nav>
   </div>
