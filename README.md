@@ -1,4 +1,4 @@
-<h1 align="center">Porfolio</h1>
+<h1 align="center">Portfolio</h1>
 
 <p align="center">Front-end application development in ReactJS with Typescript and Vite. Responsive interface using TailwindCSS.</p>
 
@@ -8,15 +8,15 @@
 
 #### Home
 
-<img src="src/assets/preview/home.png" width="720px">
+<img src="src/assets/previews/home.png" width="720px">
 
 #### Projects
 
-<img src="src/assets/preview/projects.png" width="720px">
+<img src="src/assets/previews/projects.png" width="720px">
 
 #### GitHub Projects
 
-<img src="src/assets/preview/github.png" width="720px">
+<img src="src/assets/previews/github.png" width="720px">
 
 <br />
 
