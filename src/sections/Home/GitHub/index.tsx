@@ -91,7 +91,7 @@ const Card = ({ name, description, url, stars, forks }: CardProps) => (
         onClick={() => window.open(url)}
       >
         <Link className="w-6 h-6 mr-2" />
-        View Project
+        Repository
       </Button>
 
       <div className="flex items-center gap-1 text-zinc-400">
