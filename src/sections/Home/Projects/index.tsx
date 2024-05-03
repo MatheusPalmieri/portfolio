@@ -27,7 +27,7 @@ export const Projects = () => {
                 <img
                   src={`projects/${project.image}`}
                   alt="Project image"
-                  className="w-72 h-96 object-cover rounded-lg"
+                  className="w-full md:w-72 h-96 object-cover rounded-lg"
                 />
 
                 <div className="flex flex-col gap-3">
@@ -47,13 +47,13 @@ export const Projects = () => {
 
                   <p className="text-xl text-zinc-200">{project.about}</p>
 
-                  <div className="flex gap-3">
+                  <div className="flex flex-col md:flex-row gap-3">
                     <Button
                       className="h-10 bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.6)] duration-300 rounded-full text-xl font-medium"
                       onClick={() => window.open(project.links.demo)}
                     >
                       <Link className="w-6 h-6 mr-2" />
-                      View Project
+                      Preview
                     </Button>
                     <Button
                       className="h-10 bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.6)] duration-300 rounded-full text-xl font-medium"
