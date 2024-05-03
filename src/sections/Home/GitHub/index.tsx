@@ -46,7 +46,7 @@ export const Github = () => {
 
         <div className="h-16" />
 
-        <div className="grid grid-cols-2 grid-rows-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-6">
           {isLoading && (
             <div className="bg-zinc-900 flex flex-col gap-3 rounded-2xl p-6">
               <h5 className="text-4xl font-bold">Loading...</h5>

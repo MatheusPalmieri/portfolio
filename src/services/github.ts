@@ -14,7 +14,7 @@ export const getRepositories = async (): Promise<Repository[]> => {
         watchers: response.watchers,
         forks: response.forks,
       };
-    })
+    }),
   );
 
   return data;

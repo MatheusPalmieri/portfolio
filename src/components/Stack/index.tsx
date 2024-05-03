@@ -17,7 +17,7 @@ export const Stack = ({
     <div
       className={twMerge(
         `flex gap-3 ${row ? "flex-row" : "flex-col"}`,
-        className
+        className,
       )}
       {...props}
     >

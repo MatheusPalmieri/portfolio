@@ -20,8 +20,8 @@ export const Projects = () => {
           >
             <Container className="py-6 max-w-[1024px]">
               <div
-                className={`flex items-center gap-3 ${
-                  isPair && "flex-row-reverse"
+                className={`flex flex-col md:flex-row items-center gap-6 ${
+                  isPair && "md:flex-row-reverse"
                 }`}
               >
                 <img
